@@ -1,0 +1,117 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  border: 1px solid #474545;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.navbar a:hover {
+  background-color: #342d2d;
+  color: rgb(255, 254, 254);
+}
+
+.navbar a.active {
+  background-color: #3f413f;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+ h2{
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  font-style: oblique;
+}
+p{
+  color: aliceblue;
+  text-align: center;
+font-weight: 600;
+font-style: oblique;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 420px;
+  display: block;
+  margin: auto;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #f0f0f0;
+}
+text{
+  color: #060101;
+}
+img{
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.hidden {
+  display: none;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-message {
+  visibility: hidden;
+  width: 320px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.image-container:hover .hover-message {
+  visibility: visible;
+}
+
+/* Προσαρμόστε το στυλ για κινητές συσκευές */
+@media only screen and (max-width: 600px) {
+  .hover-message {
+    width: 90%;
+    font-size: 14px;
+    bottom: -50px;
+  }
+}
+
+  
