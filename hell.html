@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>WebScream</title>
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="http://127.0.0.1:3000/index.html">Home</a>
+        <a href="http://127.0.0.1:3000/video.html">Video</a>
+        <a href="#hell">Hell</a>
+        <a href="http://127.0.0.1:3000/Scream.html">Scream</a>
+      </div>
+      <div class="content">
+        <h2>Welcome to hell.......</h2>
+        <p>Παρακάτω θα βρείτε μια συλογή από τα μαχαίρια μου.....</p>
+        <div class="image-container">
+            <img src="knifescream.jpg" alt="Jamshaer" width="320" height="240" id="jamshaer-image">
+            <div class="hover-message" id="hover-message">
+              Άλλοι ακονίζουν τα μαχαίρια τους στον τροχό , εγώ τα ακονίζω στα κόκαλα των θυμάτων μου ΧΑΧΑΧΑ.
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="kn.jpg" alt="Jamshaer" width="320" height="240" id="jamshaer-image">
+            <div class="hover-message" id="hover-message">
+               Μ'αρέσει οταν τα αίματα μπλέκονται μεταξύ τους και στολίζουν το μαχαίρι μου.ΧΑΧΑΧΑΧΑ
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="scream.hell.jpg" alt="Jamshaer" width="320" height="240" id="jamshaer-image">
+            <div class="hover-message" id="hover-message">
+              Είπα να κάνω μία επίσκεψη σε ένα από τα θύματα μου.Μάλλον δεν της άρεσε και πολύ (ίσως και να είχε δίκιο).ΧΑΧΑΧΑ
+          </div>
+      </div>
+      <div class="image-container">
+        <img src="knife.scream.jpg" alt="Jamshaer" width="320" height="240" id="jamshaer-image" >
+        <div class="hover-message" id="hover-message">
+         Μα γιατί με φοβάσαι τόσο? (Μάλλον δεν της αρέσει το αίμα της.ΧΑΧΑΧΑ).
+      </div>
+  </div>
+  <div class="image-container">
+    <img src="knife.jpg" alt="Jamshaer" width="320" height="240" id="jamshaer-image" >
+    <div class="hover-message" id="hover-message">
+     Το πιο ωραίο συναίσθημα να μπαίνει το μαχαίρι μέσα στο σώμα......
+  </div>
+</body>
+<style>
+    /* Στυλ για το hover message */
+.hover-message {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Στυλ για την εικόνα και τον container της */
+.image-container {
+  position: relative;
+}
+
+.image-container:hover .hover-message {
+  display: block;
+}
+ img{
+    margin-top: 6%;
+ }
+
+</style>
+<script src="script.js"></script>
+</html>
